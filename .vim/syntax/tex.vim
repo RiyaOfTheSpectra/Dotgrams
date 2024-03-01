@@ -1,0 +1,1 @@
+syn region texMathZoneZ matchgroup=texStatement start="\\begin{align}" start="\\begin{align*}" matchgroup=texStatement end="\\end{align}" end="\\end{align*}" end="%stopzone\>" contains=@texMathZoneGroup
