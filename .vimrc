@@ -4,7 +4,7 @@ set smarttab
 set tabstop=4
 set shiftwidth=4
 set autoindent
-set number
+set relativenumber
 set cursorline
 set visualbell
 set expandtab
@@ -70,7 +70,11 @@ function Count(string)
     execute "%s/".a:string."//gn"
 endfunction
 
-au FileType tex syn region texMathZoneZ matchgroup=texStatement start="\\begin{align}"  start="\\begin{align\*}" start="\\startformula" matchgroup=texStatement end="}" end="\\end{align}" end="\\end{align\*}" end="%stopzone\>" end="\\stopformula"  contains=@texMathZoneGroup
+au FileType tex syn region texMathZoneZ matchgroup=texStatement start="\\begin{align}"  start="\\begin{align\*}" start="\\startformula" start="\\m{" matchgroup=texStatement end="}" end="\\end{align}" end="\\end{align\*}" end="%stopzone\>" end="\\stopformula"  contains=@texMathZoneGroup
 
 command Count call Count(<args>)
 command B :call Break(65)<CR>
+
+inoremap .<SPACE> .<SPACE><SPACE>
+inoremap !<SPACE> !<SPACE><SPACE>
+inoremap ?<SPACE> ?<SPACE><SPACE>

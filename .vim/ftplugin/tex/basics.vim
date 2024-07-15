@@ -11,6 +11,8 @@ set spell
 inoremap { {}<++><ESC>4hi
 inoremap -[ {
 
+inoremap ,plot \usepgfplotslibrary{groupplots,dateplot}<CR>\usetikzlibrary{patterns,shapes.arrows}
+
 inoremap ,pi \frac{\tau}{2}
 
 inoremap ,gd \delta

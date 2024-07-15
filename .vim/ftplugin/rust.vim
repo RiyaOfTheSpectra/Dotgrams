@@ -8,6 +8,8 @@ inoremap ,uw .unwrap()
 
 inoremap ,st struct
 inoremap { {}<++><ESC>4hi
-inoremap ,; ::
+inoremap ;; ::
+
+inoremap ,= =>
 
 inoremap ,fr for  in <++><ESC>8ha

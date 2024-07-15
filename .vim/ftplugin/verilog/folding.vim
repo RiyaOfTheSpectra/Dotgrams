@@ -10,9 +10,9 @@ function! GetLaTeXFold(lnum)
         return "a1"
     elseif getline(a:lnum) =~ '\vcase'
         return "a1"
-    elseif getline(a:lnum) =~ '\vend'
+    elseif getline(a:lnum) =~ '\vendcase$'
         return "s1"
-    elseif getline(a:lnum) =~ 'endcase'
+    elseif getline(a:lnum) =~ '\vend$'
         return "s1"
     elseif getline(a:lnum) =~ '\v\*\/'
         return "s1"
