@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
+let g:netrw_dirhistcnt =9
+let g:netrw_dirhist_9='/home/santiagorivera/TereBin'
 let g:netrw_dirhist_8='/home/santiagorivera/.config/sway'
 let g:netrw_dirhist_7='/home/santiagorivera/.config'
 let g:netrw_dirhist_6='/etc/pacman.d/gnupg'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_3='/home/santiagorivera/Z/IISERgrams/Work/sem6/LabIV'
 let g:netrw_dirhist_2='/home/santiagorivera/Z/IISERgrams/Work/sem6/LabIV/01_CurieWeiss'
 let g:netrw_dirhist_1='/home/santiagorivera/Z/IISERgrams/Work/sem5/PhysLabIII/HallEffect/Data'
 let g:netrw_dirhist_0='/home/santiagorivera/Z/Infograms/.reminders'
-let g:netrw_dirhist_9='/home/santiagorivera/Z/Dotgrams/.git/branches'
