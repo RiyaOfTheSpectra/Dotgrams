@@ -4,7 +4,7 @@ set smarttab
 set tabstop=4
 set shiftwidth=4
 set autoindent
-set relativenumber
+set number relativenumber
 set cursorline
 set visualbell
 set expandtab
@@ -15,8 +15,6 @@ set hlsearch
 set showmatch
 set encoding=utf-8
 set title
-set foldmethod=marker
-set wrap
 set spelllang=en_gb
 set spellfile=~/.vim/en.utf-8.add
 set textwidth=75
@@ -51,7 +49,6 @@ inoremap <C-Q> <ESC>:wq!<CR>
 nnoremap <C-S> :w!<CR>
 nnoremap <C-Q> :wq!<CR>
 inoremap jk <ESC>
-inoremap kj <ESC>
 inoremap <ESC> <NOP>
 nnoremap C :Count "
 nnoremap Ca :CountAll "

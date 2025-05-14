@@ -2,10 +2,12 @@ nnoremap <F5> :w!<CR> :!pdflatex -output-directory=%:p:h -quiet %<CR><CR>
 inoremap <F5> <ESC>:w!<CR> :!pdflatex -output-directory=%:p:h -quiet %<CR><CR>
 nnoremap <F6> :w!<CR> :!xelatex -output-directory=%:p:h -quiet %<CR><CR>
 inoremap <F6> <ESC>:w!<CR> :!xelatex -output-directory=%:p:h -quiet %<CR><CR>
-nnoremap <F7> :! zathura --fork %:p:r.pdf<CR><CR>O
+nnoremap <F7> :! zathura --fork %:p:r.pdf<CR>:redraw<CR>
 inoremap <F7> <ESC>:! zathura --fork %:p:r.pdf<CR><CR>O
 nnoremap <F9> :! PDFComp.sh %:p:r.pdf<CR><CR>
 inoremap <F9> <ESC>:! PDFComp.sh %:p:r.pdf<CR><CR>
+
+set include=\\addbibresource{
 
 set spell
 inoremap { {}<++><ESC>4hi
