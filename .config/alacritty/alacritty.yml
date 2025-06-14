@@ -1,0 +1,36 @@
+live_config_reload: true
+
+shell:
+  program: /usr/bin/zsh
+
+font:
+  normal:
+    family: IBM Plex Mono
+    style: Italic
+  italic:
+    style: Normal
+  size: 12.5
+
+window:
+  opacity: 0.8
+
+colors:
+  primary:
+    background: '0x16000b'
+    foreground: '0xdddddd'
+  search:
+    matches:
+      foreground: '0x000000'
+      background: '0x300030'
+
+cursor:
+  style:
+    shape: Underline
+    blinking: On
+  blink_interval: 450
+  unfocused_hollow: false
+  thickness: 0.35
+
+key_bindings:
+  - { key: Return, mods: Control|Shift, action: SpawnNewInstance }
+

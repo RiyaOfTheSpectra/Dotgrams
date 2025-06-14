@@ -1,0 +1,8 @@
+[Default Applications]
+image/png=feh;
+image/jpeg=feh;
+image/tiff=feh;
+application/pdf=/bin/zathura;
+
+[Added Associations]
+text/plain=vim.desktop;

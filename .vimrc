@@ -59,6 +59,9 @@ map <leader><leader> <Esc>/<++><Enter>4s
 inoremap <leader><leader> <Esc>/<++><Enter>4s
 vnoremap <leader><leader> <Esc>/<++><Enter>4s
 
+nnoremap gc :! git commit -a<CR>
+nnoremap gp :! git push<CR>
+
 function Break(length)
     execute "normal ^" . a:length . "lelr\<CR>\ "
 endfunction

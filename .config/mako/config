@@ -1,0 +1,19 @@
+max-history=0
+layer=overlay
+sort=-time
+font=IBM Plex Mono Italic 10.5
+text-color=#000000
+border-radius=8
+border-size=4
+background-color=#d15ede
+border-color=#490357
+icon-location=right
+default-timeout=5000
+width=300
+height=120
+padding=10
+
+[urgency=high]
+background-color=#ff8787
+border-color=#dd0000
+default-timeout=10000

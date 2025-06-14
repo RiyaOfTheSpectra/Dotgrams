@@ -4,3 +4,6 @@ export OSFONTDIR=$HOME/.fonts:/usr/share/fonts
 export MANPATH=home/santiagorivera/texlocal/texlive/2024/texmf-dist/doc/man:$MANPATH
 export INFOPATH=home/santiagorivera/texlocal/texlive/2024/texmf-dist/doc/info:$INFOPATH
 export BROWSER=firefox
+. "$HOME/.cargo/env"
+
+source ~/.zshalias

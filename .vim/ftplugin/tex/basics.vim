@@ -1,5 +1,5 @@
-nnoremap <F5> :w!<CR> :!pdflatex -output-directory=%:p:h -quiet %<CR><CR>
-inoremap <F5> <ESC>:w!<CR> :!pdflatex -output-directory=%:p:h -quiet %<CR><CR>
+nnoremap <F5> :w!<CR> :! tectonic -Zsearch-path=/home/santiagorivera/Z/Infograms/Work/PDF/StyleAndClass/ %<CR><CR>
+inoremap <F5> <ESC>:w!<CR> :! tectonic -Zsearch-path=/home/santiagorivera/Z/Infograms/Work/PDF/StyleAndClass/ %<CR><CR>a
 nnoremap <F6> :w!<CR> :!xelatex -output-directory=%:p:h -quiet %<CR><CR>
 inoremap <F6> <ESC>:w!<CR> :!xelatex -output-directory=%:p:h -quiet %<CR><CR>
 nnoremap <F7> :! zathura --fork %:p:r.pdf<CR>:redraw<CR>

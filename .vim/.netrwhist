@@ -1,12 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/santiagorivera/Z/Dotgrams/.config/menus/applications-merged'
+let g:netrw_dirhist_2='/home/santiagorivera/Z/Dotgrams/.config/menus'
+let g:netrw_dirhist_1='/home/santiagorivera/Z/Dotgrams/.config/autostart'
+let g:netrw_dirhist_0='/home/santiagorivera/texmf/web2c'
 let g:netrw_dirhist_9='/home/santiagorivera/Z/IISERgrams/Work/sem7/SemProject/Notes'
 let g:netrw_dirhist_8='/home/santiagorivera/Z/Infograms/NIUS/Winter/Log'
 let g:netrw_dirhist_7='/home/santiagorivera/Z/IISERgrams/Work/sem7/SemProject/GroupMeetingSlides/20241213/WeirdPLs'
 let g:netrw_dirhist_6='/home/santiagorivera/Z/IISERgrams/Work/sem7/SemProject/GroupMeetingSlides/20241213'
 let g:netrw_dirhist_5='/home/santiagorivera/Z/IISERgrams/Work/sem7/SemProject/GroupMeetingSlides/20241011'
 let g:netrw_dirhist_4='/home/santiagorivera/Z/IISERgrams/Work/sem7/Lab/01_ESR'
-let g:netrw_dirhist_3='/home/santiagorivera/.miktex/texmfs/install/tex/latex/babel-english'
-let g:netrw_dirhist_2='/etc/NetworkManager/system-connections'
-let g:netrw_dirhist_1='/home/santiagorivera/Z/IISERgrams/Work/sem7/Lab/04_Guoy/Report/04_Gouy.tex'
-let g:netrw_dirhist_0='/usr/share/doc/ghostscript'

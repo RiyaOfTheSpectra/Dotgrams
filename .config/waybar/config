@@ -1,0 +1,73 @@
+[{
+    "layer": "top",
+    "position": "top",
+    "height": 26,
+    "spacing": 5,
+    "modules-left": ["battery"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["custom/wttr"],
+
+    "battery": {
+        "interval": 1,
+        "format": "Drawing {power}W at {capacity}% | {time} left",
+        "format-charging": "{capacity}% | Full in {time}"
+    },
+
+    "sway/window": {
+        "format": "{}",
+        "separate-outputs": true
+    },
+
+    "custom/wttr": {
+        "interval": 60,
+        "exec": "Wttr.sh",
+        "format": "  {}  "
+    }
+},
+
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 26,
+    "spacing": 7,
+    "modules-left": ["network", "memory", "cpu"],
+    "modules-center": ["sway/workspaces"],
+    "modules-right": ["wireplumber", "clock"],
+
+    "sway/workspaces": {
+        "format": "{icon}",
+        "on-scroll-up": "hyprctl dispatch workspace e+1",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
+        "on-click": "activate"
+    },
+
+    "network": {
+        "format-wifi": "Photons: {essid} @ {bandwidthTotalBytes}",
+        "format-ethernet": "Electrons @ {bandwidthTotalBytes}"
+    },
+
+    "mpd": {
+        "format": "{title} by {artist} from {album} | {elapsedTime} / {totalTime}"
+    },
+
+    "wireplumber": {
+        "format": "Vol: {volume}%",
+        "format-muted" : "Vol: X",
+        "format-source": "Mic: {volume}%",
+        "format-source-muted" : "Mic: X"
+    },
+
+    "cpu": {
+        "interval": 5,
+        "format": "CPU: {usage}%"
+    },
+
+    "memory": {
+        "format": "RAM: {used}GB"
+    },
+
+    "clock": {
+        "interval": 1,
+        "format": "{:%A, %d %B %Y, %H%M %S}"
+    }
+}]

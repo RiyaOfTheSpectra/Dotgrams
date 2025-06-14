@@ -1,0 +1,44 @@
+set default-bg rgba(22,0,11,0.9)
+set default-fg '#d18ede'
+
+set inputbar-bg '#16000b'
+set inputbar-fg '#d18ede'
+
+set statusbar-bg rgba(22,0,11,0.85)
+set statusbar-fg '#d18ede'
+
+set index-bg '#16000b'
+set index-fg '#d18ede'
+set index-active-fg '#16000b'
+set index-active-bg '#d18ede'
+
+set highlight-color '#d18ede'
+
+set notification-fg '#16000b'
+set notification-bg '#d18ede'
+
+set completion-bg '#16000b'
+set completion-fg '#d18ede'
+set completion-group-bg '#16000b'
+set completion-group-fg '#490357'
+set completion-highlight-fg '#16000b'
+set completion-highlight-bg '#d18ede'
+
+set page-padding 5
+set statusbar-home-tilde true
+set window-title-basename true
+set window-title-page false
+set recolor-keephue true
+set show-recent 0
+set recolor-lightcolor rgba(0.7,0,0.4,0)
+set recolor-darkcolor '#dddddd'
+set recolor true
+set sandbox none
+set font 'Drafting\* Mono Light Italic 11'
+set statusbar-v-padding 4
+set guioptions ''
+set recolor-reverse-video true
+set render-loading false
+
+map = zoom in
+map - zoom out
