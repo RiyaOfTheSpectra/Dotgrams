@@ -71,10 +71,10 @@ bindsym $mod+Escape kill
 bindsym --border button3 kill
 
 # start dmenu (a program launcher) and bind hotkeys for commonly used applications
-bindsym $mod+g exec rofi -show run
-bindsym $mod+t exec thunderbird
+bindsym $mod+g exec rofi -show drun
 bindsym $mod+y exec firefox
 bindsym $mod+Shift+y exec mercury-browser
+bindsym $mod+Shift+u exec ~/TereBin/dmenu_wifi.sh
 bindsym $mod+Alt+y exec zen-browser
 bindsym $mod+i exec firefox --private-window
 bindsym $mod+m exec spotify
