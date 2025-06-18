@@ -42,3 +42,6 @@ set render-loading false
 
 map = zoom in
 map - zoom out
+
+map <C-i> :exec inkscape $FILE
+map <C-g> :exec gimp $FILE
